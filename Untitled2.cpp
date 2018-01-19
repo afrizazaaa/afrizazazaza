@@ -9,13 +9,17 @@ class celana{
 		double harga;
 };
 int main () {
-	ban tubless;
+	celana jeans;
 	
-	tubless.merk ="levis";
-	tubless.harga = 80000;
+	jeans.merk ="levis";
+	jeans.harga = 80000;
 	
-	cout<<"merk yang dipakai "<< (levis.merk)<<endl;
-	cout<<"Harga modal nya "<< (levis.harga)<<endl;
+	cout<<"merk yang dipakai "<< (jeans.merk)<<endl;
+	cout<<"Harga modal nya "<< (jeans.harga)<<endl;
 	
-	tubless.bahan("terbuat jeans yang berkualitas KW super");
+	jeans.bahan("terbuat jeans yang berkualitas KW super");
 }
+void celana::bahan(string jeans){
+	cout<<"jeans yang digunakan sangat berkualitas dan nyaman "<<jeans<<" kalu lo make jeans ini lo bakal keren dan kece!!!"<<endl;
+}
+
